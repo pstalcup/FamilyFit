@@ -1,8 +1,12 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.top-bar input[type="text"], .top-bar .button, .top-bar input[type="password"] {
+    font-size: 0.77778rem;
+    position: relative;
+    top: 7px;
 }
 
-a {
-  color: #00B7FF;
+.top-bar input[type="text"], .top-bar input[type="password"]: {
+    height: auto;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    font-size: 0.75rem;
 }
