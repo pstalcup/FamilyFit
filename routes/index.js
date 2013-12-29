@@ -4,5 +4,5 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Patrick is Poop' });
+  res.render('index', { title: 'FamilyFit' });
 };
