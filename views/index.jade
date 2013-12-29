@@ -8,12 +8,13 @@ block content
                     h1
                         a(href="#")= username
         else
-            ul.has-form
-                form
-                    li
-                        input(name="username")
-                    li
-                        input(type="password", name="password")
+            ul.left
+                li.has-form
+                    div.row.collapse
+                        div.large-6.small-6.columns
+                            input(type="text", placeholder="Username")
+                        div.large-6.small-6.columns
+                            input(type="password", placeholder="Password")
         section.top-bar-section
             ul.right
                 li.divider
