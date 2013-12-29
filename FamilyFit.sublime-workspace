@@ -1,0 +1,207 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"last_game_text_print"
+			],
+			[
+				"subli",
+				"sublime_plugin"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"window.run_command(\"game_start\")",
+			"view.run_command(\"game_text\")",
+			"view.run(\"game_text\")",
+			"window.run_command(\"game_start\")",
+			"window.run_command(\"example\")",
+			"run_command(\"example\")",
+			"view.run_command(\"example\")",
+			"view.run(\"example\")",
+			"view.run_command(\"example\")",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/pstalcup/.config/sublime-text-3/Packages/User/game.py",
+		"/home/pstalcup/documents/python/explore/map",
+		"/home/pstalcup/.ssh/id_rsa.pub",
+		"/home/pstalcup/documents/python/explore/game.py",
+		"/home/pstalcup/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/pstalcup/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/pstalcup/.config/sublime-text-3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/home/pstalcup/.config/sublime-text-3/Packages/AdvancedNewFile/Default (Linux).sublime-keymap",
+		"/home/pstalcup/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/pstalcup/.config/sublime-text-3/Packages/User/Package Control.cache/ad7758d143e99a76034aad71ae2a1f3b",
+		"/home/pstalcup/.config/sublime-text-3/Installed Packages/Package Control.sublime-package",
+		"/home/pstalcup/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"super",
+			"west",
+			"north",
+			"):\n",
+			"filename",
+			"north",
+			"south",
+			" \n",
+			"south",
+			"south \n		if",
+			"south"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "FamilyFit.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
