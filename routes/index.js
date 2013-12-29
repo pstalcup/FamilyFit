@@ -4,5 +4,5 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'FamilyFit' });
+  res.render('index', { username: 'username' });
 };
