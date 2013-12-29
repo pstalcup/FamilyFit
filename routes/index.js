@@ -4,7 +4,6 @@
  */
 
 exports.index = function(req, res){
-    console.log(req.session); 
   res.render('index', { username: req.session.username });
 };
 
@@ -15,3 +14,37 @@ exports.login = function(req, res){
     }
     res.send("{}"); 
 };
+
+exports.logout = function(req, res){
+    delete req.session.username; 
+    res.send("{}"); 
+}
+
+exports.user = {
+    "view" : function(req, res) {
+
+    },
+    "checkins" : function(req, res) {
+
+    },
+    "checkin" : function(req, res) {
+
+    },
+    "edit" : function(res, req) {
+
+    }
+}; 
+exports.group = {
+    "view" : function(req, res) {
+
+    }, 
+    "leaderboard" : function(req, res) {
+
+    }, 
+    "edit" : function(req, res) {
+
+    }, 
+    "join" : function(req, res) {
+        
+    }
+}; 

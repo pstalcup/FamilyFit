@@ -7,12 +7,13 @@
     "start": "node app.js"
   },
   "repository": {
-  	"type": "git",
-	"url": "https://github.com/pstalcup/FamilyFit"
+    "type": "git",
+    "url": "https://github.com/pstalcup/FamilyFit"
   },
   "dependencies": {
     "express": "3.4.7",
     "jade": "*",
-    "foundation": "*"
+    "foundation": "*",
+    "pg": "~2.10.0"
   }
 }
