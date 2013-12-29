@@ -3,13 +3,15 @@ extends layout
 block content
     nav.top-bar
         ul.title-area
-            li.name
-                if username
+            if username
+                li.name
                     h1
                         a(href="#")= username
-                else
-                    form
+            else
+                form
+                    li
                         input(name="username")
+                    li
                         input(type="password", name="password")
         section.top-bar-section
             ul.right
