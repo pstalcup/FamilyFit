@@ -2,12 +2,13 @@ extends layout
 
 block content
     nav.top-bar
-        ul.title-area
-            if username
+        if username
+            ul.title-area
                 li.name
                     h1
                         a(href="#")= username
-            else
+        else
+            ul.has-form
                 form
                     li
                         input(name="username")
